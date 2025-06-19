@@ -12,4 +12,5 @@ for row in range(2, max_row + 1):
 
     if isinstance(address, str) and address.startswith('Ain') and isinstance(number, (int, float)) and number < 40:
         count += 1
-‎Read more
+
+print(count)
